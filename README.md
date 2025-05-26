@@ -67,10 +67,10 @@ These open ports expose several vulnerable services often used in penetration te
   ![ifconfig](ifconfigscreenshot.png)
 
 - **2. Nmap TCP SYN scan result**  
-  ![Nmap Scan](stealthscanScreenshot .png)
+  ![Nmap Scan](stealthscanScreenshot.png)
 
 - **3. Wireshark packet capture of the scan**  
-  ![Wireshark](WiresharkScreenshot .png)
+  ![Wireshark](WiresharkScreenshot.png)
 
 ---
 
