@@ -1,0 +1,25 @@
+ Internship Task 1 – Interview Questions & Answers
+
+ 1. What is an open port?
+An open port is a network port that is configured to accept packets. It allows external devices to establish a connection with services running on the machine.
+
+ 2. How does Nmap perform a TCP SYN scan?
+Nmap sends SYN packets to ports. If a SYN-ACK is received, the port is open. If RST is received, the port is closed. It's a stealthy scan as the TCP handshake is not completed.
+
+ 3. What risks are associated with open ports?
+Open ports can expose services that may have vulnerabilities. Attackers may exploit these to gain unauthorized access or cause disruptions.
+
+ 4. Explain the difference between TCP and UDP scanning.
+TCP scanning involves sending SYN or ACK packets and expecting a response, whereas UDP scanning sends UDP packets and waits for ICMP errors or no response. TCP is connection-oriented, UDP is connectionless.
+
+ 5. How can open ports be secured?
+By disabling unused ports, using firewalls, enabling intrusion detection, and updating services regularly.
+
+ 6. What is a firewall's role regarding ports?
+A firewall filters incoming and outgoing traffic based on rules. It can block or allow traffic on specific ports to protect systems.
+
+ 7. What is a port scan and why do attackers perform it?
+A port scan checks which ports are open on a system. Attackers use it for reconnaissance to find vulnerabilities and entry points.
+
+ 8. How does Wireshark complement port scanning?
+Wireshark captures network traffic in real time. It helps analyze packets sent during scans to understand protocols, detect anomalies, and verify scan behavior.
